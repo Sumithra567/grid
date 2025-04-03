@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    /* body {
+        background-color: #222;
+        color: white;
+    } */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 100vh;
+    }
+    .first img, .second img, .containers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .first img, .second img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* .containers {
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #0f281c;
+        padding: 20px;
+        margin:0;
+        padding: 0;
+        margin-right: 0;
+        padding-right: 0;
+       
+
+    } */
+    .containers {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+    /* .container2{
+        display: block;
+        margin:0;
+    } */
+
+    /* .paragraph {
+        font-size: 14px;
+        color: #b0b0b0;
+    }
+    .heading {
+        background-color: #c3ff00;
+        padding: 20px;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+    } */
+     .paragraph, 
+.heading {
+    margin: 0; 
+    padding: 0;
+}
+.paragraph {
+    background-color: darkgreen; 
+    color: white; 
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.heading {
+    background-color: chartreuse; 
+    color: rgb(192, 222, 25); 
+    padding: 20px;
+    width:400px ;
+    height:300px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.para{justify-content: center;}
+
+ 
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="first img">
+            <img src="https://th.bing.com/th/id/OIP.MBlOJPg-beF5E6q2yR5k9gHaLH?w=120&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+        </div>
+        <div class="second img">
+            <img src="https://th.bing.com/th/id/OIP.6KUF_tRpfttLCi1vsK2o4QHaFj?w=240&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="nature pic">
+        </div>
+        <div class="containers">
+            <div class="paragraph"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <p style="color: aliceblue;">Appealing wrap helps attract people and turn them into lifetime fans of a product. It requires as much effort as user experience. The Glyph team goes all out for a pixel-perfect visual design and clever space use.</p>
+                
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+                
+                <p style="color: rgb(106, 134, 106);">It involves the whole complex of visual communications: talent, creative ability, manual skill, and technical knowledge. Aesthetics and economics.</p>
+            </div>
+           
+            <div class="heading"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <h2 style="text-align: center;">DESIGN IS A WAY OF LIFE</h2>
+            </div>
+        
+        </div>
+   <div class="para">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p><u style="color: chartreuse;">Website Templates</u> created with <u style="color: chartreuse;">Website Builder Software</u></p> </div>
+</div>
+</body>
+</html>
+        
+           
